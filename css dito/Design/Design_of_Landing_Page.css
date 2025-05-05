@@ -1,0 +1,110 @@
+.muka {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(/Pictures/MUka-ko/caraw\ na\ official.jpeg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 28%;
+    background-size: cover;
+    position: relative;
+    margin: 50px auto;
+}
+.muka:hover{
+box-shadow: 1px 1px 1 white;
+cursor: pointer;
+}
+
+
+.fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+div ul li a {
+    text-align: center;
+    margin: auto;
+    list-style: none;
+    height: 50px;
+    position: relative;
+    display: block;
+    background: #acbcbe;
+    border-radius: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border: #6084b4 2px solid;
+    max-width: 700px;
+    transition:all .6s;
+    cursor: pointer;
+}
+
+div ul li a:hover {
+    background: #000000;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+box-shadow: 5px 4px 1px whitesmoke;
+    
+}
+
+
+
+
+.fa{
+    color: white;
+    cursor: pointer;
+}
+/* key-frame */
+@keyframes Scale {
+   100% {transform: scale(1.1);}
+    
+}
+@keyframes GoLeft {
+    
+    
+}
+
+
+/* media */
+
+@media (max-width:451px) {
+    div ul li a {
+        text-align: center;
+        margin: auto;
+        list-style: none;
+        height: 50px;
+        width: 451px;
+        position: relative;
+        display: block;
+        background: #acbcbe;
+        border-radius: 10px;
+        line-height: 50px;
+        text-decoration: none;
+        color: black;
+        border: #6084b4 2px solid;
+        max-width: 400px;
+    }
+}
+
+@media (max-width:375px) {
+    div ul li a {
+        text-align: center;
+        margin: auto;
+        list-style: none;
+        height: 50px;
+        width: 451px;
+        position: relative;
+        display: block;
+        background: #acbcbe;
+        border-radius: 10px;
+        line-height: 50px;
+        text-decoration: none;
+        color: black;
+        border: #6084b4 2px solid;
+        max-width: 300px;
+    }
+}
