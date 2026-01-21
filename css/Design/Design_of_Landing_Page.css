@@ -52,6 +52,28 @@ box-shadow: 5px 4px 1px whitesmoke;
     
 }
 
+/*Projects chapter code AHAHAAHHAH*/
+.BooklyProject{
+display: flex;
+    align-items: center;
+gap: 10px 10px;
+
+}
+.BooklyProject .Pictures img{
+    width: 500px;
+    height: 250px;
+    margin: 30px;
+    transition: transform 0.3s ease;
+}
+.BooklyProject .Pictures img:hover{
+    transform:  scale(1.1);
+    box-shadow: 5px 5px 50px whitesmoke;
+
+}
+.BooklyProject .Text p{
+    color: white;
+}
+
 
 
 
@@ -89,6 +111,8 @@ box-shadow: 5px 4px 1px whitesmoke;
         border: #6084b4 2px solid;
         max-width: 400px;
     }
+
+
 }
 
 @media (max-width:375px) {
