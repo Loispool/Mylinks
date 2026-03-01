@@ -9,9 +9,10 @@
     position: relative;
     margin: 50px auto;
 }
-.muka:hover{
-box-shadow: 1px 1px 1 white;
-cursor: pointer;
+
+.muka:hover {
+    box-shadow: 1px 1px 1 white;
+    cursor: pointer;
 }
 
 
@@ -23,7 +24,7 @@ cursor: pointer;
     height: 50px;
     width: 50px;
     margin: auto;
-    color:white;
+    color: white;
 }
 
 div ul li a {
@@ -40,7 +41,7 @@ div ul li a {
     color: black;
     border: #6084b4 2px solid;
     max-width: 700px;
-    transition:all .6s;
+    transition: all .6s;
     cursor: pointer;
 }
 
@@ -48,53 +49,62 @@ div ul li a:hover {
     background: #000000;
     color: #ffffff;
     border: #ffffff 1px solid;
-box-shadow: 5px 4px 1px whitesmoke;
-    
+    box-shadow: 5px 4px 1px whitesmoke;
+
 }
 
 /*Projects chapter code AHAHAAHHAH*/
-.BooklyProject{
-display: flex;
+.BooklyProject {
+    display: flex;
+
     align-items: center;
-gap: 10px 10px;
+    gap: 10px 10px;
+
 
 }
-.BooklyProject .Pictures img{
+
+.BooklyProject .Pictures img {
     width: 500px;
     height: 250px;
     margin: 30px;
     transition: transform 0.3s ease;
 }
-.BooklyProject .Pictures img:hover{
-    transform:  scale(1.1);
+
+.BooklyProject .Pictures img:hover {
+    transform: scale(1.1);
     box-shadow: 5px 5px 50px whitesmoke;
 
 }
-.BooklyProject .Text p{
+
+.BooklyProject .Text p {
     color: white;
+
+
 }
 
 
-
-
-.fa{
+.fa {
     color: white;
     cursor: pointer;
 }
+
 /* key-frame */
 @keyframes Scale {
-   100% {transform: scale(1.1);}
-    
+    100% {
+        transform: scale(1.1);
+    }
+
 }
+
 @keyframes GoLeft {
-    
-    
+
+
 }
 
 
 /* media */
 
-@media (max-width:451px) {
+@media (max-width: 451px) {
     div ul li a {
         text-align: center;
         margin: auto;
@@ -115,7 +125,7 @@ gap: 10px 10px;
 
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
     div ul li a {
         text-align: center;
         margin: auto;
@@ -133,3 +143,33 @@ gap: 10px 10px;
         max-width: 300px;
     }
 }
+
+@media (max-width: 794px) {
+    .BooklyProject {
+        display: flex;
+
+        align-items: center;
+        gap: 10px 10px;
+        flex-direction: column;
+    }
+
+    .BooklyProject .Text p {
+        color: white;
+        margin: 5px;
+
+    }
+
+    .BooklyProject .Pictures img {
+        width: 300px;
+        height: 150px;
+        margin: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .BooklyProject .Pictures img:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 50px whitesmoke;
+
+    }
+}
+
